@@ -19,7 +19,7 @@ class Button extends Component {
                     >
                     <View style={styles.button}>
                         <Text style={styles.welcome}>
-                            this.state.pressing ? 'EEK' : 'PUSH ME'
+                            {this.state.pressing ? 'EEK' : 'PUSH ME'}
                         </Text>
                     </View>
                 </TouchableHighlight>
